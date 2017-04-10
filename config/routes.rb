@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'home/index'
+
+  root 'home#index'
+
+  # FOR REACT ROUTER - NO ROUTES BELOW THIS!!!
+  get '*unmatched_route', to: 'home#index'
 end

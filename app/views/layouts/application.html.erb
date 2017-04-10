@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HoopTourApp</title>
+    <title>Hoop Tour USA</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
-  <% if Rails.env.development? %>
-  <script src="http://localhost:3808/webpack-dev-server.js"></script>
-<% end %>
+    <% if Rails.env.development? %>
+      <script src="http://localhost:3808/webpack-dev-server.js"></script>
+    <% end %>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Raleway:300" rel="stylesheet">
 </head>
 
   <body>
