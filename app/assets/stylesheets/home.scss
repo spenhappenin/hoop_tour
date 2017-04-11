@@ -28,3 +28,30 @@
 	height: 125px;
 	width: 125px;
 }
+
+.locations-box {
+	border: 1px solid black;
+	border-radius: 3px;
+	width: 315px;
+}
+
+.locations-header {
+	border: 1px solid black;
+}
+
+.locations-body {
+	border: 1px solid black;
+	// width: 300px;
+}
+
+.locations-row {
+	padding: 3px;
+}
+
+.locations-row:hover {
+	color: #ff4081;
+}
+
+.locations-item {
+	width: 40%;
+}

@@ -9,6 +9,43 @@
 // font-family: 'Audiowide', cursive;
 // font-family: 'Raleway', sans-serif;
 
+* {
+	// border: 1px solid red;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.h-center {
+	justify-content: center;
+}
+
+.v-center {
+	align-items: center;
+}
+
+.centered {
+	justify-content: center;
+	align-items: center;
+}
+
+.h-around {
+	justify-content: space-around;
+	// align-items: space-around;
+}
+
+.h-between {
+	justify-content: space-between;
+	// align-items: space-between;
+}
+
 .main-red {
 	background-color: #b80504;
 }
@@ -31,29 +68,20 @@ h3 {
 	font-size: 18px;
 }
 
-.collapsible-header {
-	border-bottom: none;
+input, textarea {
+	border: 1px solid black !important;
+	padding: -10px !important;
 }
 
-.collapsible-header.active {
-	transition: 1s;
-	background-color: #1e88e5 !important;
-	color: white;
+textarea {
+	height: 150px;
 }
 
-.collapsible-header:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 10px;
-    color: #777;
-    margin-left: 5px;
-    float: left;
-    padding-right: 15px;
+.form-container {
+
 }
 
-.collapsible-header.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
 
-.collapsible-body {
-	padding: 15px;
-}
+
+
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import UpcomingLocations from './UpcomingLocations';
 
 class Home extends React.Component {
 	render() {
@@ -41,9 +42,15 @@ class Home extends React.Component {
 
 				</div>
 
-				<div className='container'>
-					<h2>Upcoming Events:</h2>
-				</div>
+				<br />
+				<br />
+				<br />
+
+				<UpcomingLocations />
+
+				<br />
+				<br />
+				<br />
 
 			</div>
 		)
