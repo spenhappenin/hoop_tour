@@ -1,5 +1,6 @@
 @import 'materialize';
 @import 'home';
+@import 'faq';
 @import 'nav';
 @import 'footer';
 
@@ -28,4 +29,31 @@ h2 {
 
 h3 {
 	font-size: 18px;
+}
+
+.collapsible-header {
+	border-bottom: none;
+}
+
+.collapsible-header.active {
+	transition: 1s;
+	background-color: #1e88e5 !important;
+	color: white;
+}
+
+.collapsible-header:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    color: #777;
+    margin-left: 5px;
+    float: left;
+    padding-right: 15px;
+}
+
+.collapsible-header.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.collapsible-body {
+	padding: 15px;
 }
