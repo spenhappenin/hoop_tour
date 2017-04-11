@@ -5,26 +5,46 @@ class Home extends React.Component {
 	render() {
 		return(
 			<div>
+
 				<div className='main-header center'>
+
+					<br />
+					<br />
+
 					<div className=''>
-						<h1 className='home-title'>Hoop Tour USA</h1>
+						<img className='header-logo' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1491865993/hoop_tour_logo_tc6szb.png' />
+						<h1>Hoop Tour USA</h1>
 					</div>
+
+					<br />
+
+					<div>
+						<h3 className='sub-title'>
+							THE NATION'S PREMIER 3 ON 3 BASKETBALL EVENT PRESENTED BY Lifetime Products
+						</h3>
+					</div>
+
+					<br />
+
 					<div className=''>
-						<h5>THE NATION'S PREMIER 3 ON 3 BASKETBALL EVENT PRESENTED BY
-​Lifetime Products</h5>
+						<Link className='btn red'>Register!</Link>
 					</div>
-					<div className=''>
-						<Link className='btn blue'>Register Now!</Link>
-					</div>
+
+					<br />
+					<br />
+					<br />
+					<br />
+
 					<div>
 						<img src='https://www.lifetime.com/content/images/lifetimelogo-w-tag_black.png' />
 					</div>
+
 				</div>
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
+
+				<div className='container'>
+					<h2>Upcoming Events:</h2>
+				</div>
+
 			</div>
 		)
 	}
