@@ -1,5 +1,13 @@
+nav {
+	height: 110px;
+}
+
 .nav-wrapper {
 	background-color: #252525 !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .nav-txt {
@@ -9,4 +17,31 @@
 	font-weight: 100;
 	font-style: none;
 	letter-spacing: 0.5px;
+}
+
+.nav-logo {
+	height: 90px;
+	width: 90px;
+	margin-left: 25px;
+}
+
+.nav-logo img {
+	height: 90px;
+	width: 90px;
+}
+
+.nav-item {
+	font-size: 16px;
+}
+
+
+@media #{$medium-and-down} {
+
+  .nav-wrapper {
+  	justify-content: center;
+  }
+
+	.nav-logo {
+		margin: 0;
+	}
 }

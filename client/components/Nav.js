@@ -6,14 +6,15 @@ class Nav extends React.Component {
 		return(
 			<nav>
 		    <div className="nav-wrapper nav-txt">
-		      <Link to="/home" className="brand-logo">Hoop Tour</Link>
+		      <Link to="/home" className='nav-logo'><img src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1491865993/hoop_tour_logo_tc6szb.png' /></Link>
 		      <ul id="nav-mobile" className="right hide-on-med-and-down">
-		        <li><Link to={ '/about' }>About</Link></li>
-		        <li><Link to={ '/locations' }>Locations</Link></li>
-		        <li><Link to={ '/sponsorship' }>Sponsorship Opportunities</Link></li>
-		        <li><Link to={ '/contact' }>Contact</Link></li>
-		        <li><Link to={ '/FAQ' }>FAQ's</Link></li>
-		        <li><Link to={ '/rules' }>Rules</Link></li>
+		        <li><Link className='nav-item' to={ '/home' }>HOME</Link></li>
+		        <li><Link className='nav-item' to={ '/about' }>ABOUT</Link></li>
+		        <li><Link className='nav-item' to={ '/locations' }>LOCATIONS</Link></li>
+		        <li><Link className='nav-item' to={ '/sponsorship' }>SPONSORSHIP OPPORTUNITIES</Link></li>
+		        <li><Link className='nav-item' to={ '/contact' }>CONTACT</Link></li>
+		        <li><Link className='nav-item' to={ '/FAQ' }>FAQ'S</Link></li>
+		        <li><Link className='nav-item' to={ '/rules' }>RULES</Link></li>
 		      </ul>
 		    </div>
 		  </nav>   
