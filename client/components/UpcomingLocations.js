@@ -8,7 +8,7 @@ class UpcomingLocations extends React.Component {
 				<div className='locations-box flex-col'>
 					<div className='locations-header flex-col v-center pink accent-3 white-text'>
 						<h2>Upcoming Locations</h2>
-						<Link to={ 'locations-body' } className='white-text'>View All Cities</Link>
+						<Link to={ '/locations' } className='white-text'>View All Cities</Link>
 					</div>
 					<div className='locations-body'>
 
