@@ -12,30 +12,30 @@ class UpcomingLocations extends React.Component {
 					</div>
 					<div className='locations-body'>
 
-						<div className='locations-row flex-row h-center h-around'>
+						<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around'>
 							<span className='locations-item'>Jun 20</span>
 							<span className='locations-item'>Salt Lake City, UT</span>
-						</div>
+						</Link>
 
-						<div className='locations-row flex-row h-center h-around blue lighten-4'>
+						<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around blue lighten-4'>
 							<span className='locations-item'>Jul 13</span>
 							<span className='locations-item'>Logan, UT</span>
-						</div>
+						</Link>
 
-						<div className='locations-row flex-row h-center h-around'>
+						<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around'>
 							<span className='locations-item'>Jul 26</span>
 							<span className='locations-item'>Idaho Falls, ID</span>
-						</div>
+						</Link>
 
-						<div className='locations-row flex-row h-center h-around blue lighten-4'>
+						<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around blue lighten-4'>
 							<span className='locations-item'>Aug 15</span>
 							<span className='locations-item'>Denver, CO</span>
-						</div>
+						</Link>
 
-						<div className='locations-row flex-row h-center h-around'>
+						<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around'>
 							<span className='locations-item'>Sep 15</span>
 							<span className='locations-item'>St. George, UT</span>
-						</div>
+						</Link>
 
 					</div>
 				</div>

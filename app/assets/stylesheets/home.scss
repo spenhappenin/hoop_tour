@@ -41,7 +41,14 @@
 
 .locations-body {
 	border: 1px solid black;
-	// width: 300px;
+}
+
+.locations-body a {
+	color: black;
+}
+
+.locations-body a:hover {
+	color: #f50057;
 }
 
 .locations-row {
