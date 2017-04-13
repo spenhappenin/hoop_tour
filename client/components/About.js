@@ -10,7 +10,7 @@ class About extends React.Component {
 				<br />
 
 				<div>
-					<h2>About Hoop Tour USA</h2>
+					<h1>About Hoop Tour USA</h1>
 				</div>
 
 				<div className='row'>

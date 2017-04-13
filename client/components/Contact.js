@@ -4,14 +4,14 @@ import Form from './Form';
 class Contact extends React.Component {
 	render() {
 		return(
-			<div>
+			<div className='contain'>
 
 				<br />
 				<br />
 				<br />
 
 				<div>
-					<h2>Contact Us</h2>
+					<h1>Contact Us</h1>
 				</div>
 
 				<Form />

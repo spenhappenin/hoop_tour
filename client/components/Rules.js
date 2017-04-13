@@ -3,16 +3,16 @@ import React from 'react';
 class Rules extends React.Component {
 	render() {
 		return(
-			<div className='container'>
+			<div className='contain'>
 
 				<br />
 				<br />
 
 				<div>
-					<h2>Hoop Tour USA Rules</h2>
+					<h1>Hoop Tour USA Rules</h1>
 				</div>
 
-				<div>
+				<div className='rules'>
 					<ol>
 						<li>Games are 20 minutes long, or first to 21 points straight up. (There is no win by two)</li>
 						<li>Games are scored by 1’s and 2’s</li>

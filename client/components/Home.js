@@ -20,9 +20,7 @@ class Home extends React.Component {
 					<br />
 
 					<div>
-						<h3 className='sub-title'>
-							THE NATION'S PREMIER 3 ON 3 BASKETBALL EVENT PRESENTED BY Lifetime Products
-						</h3>
+						<h3>THE NATION'S PREMIER 3 ON 3 BASKETBALL EVENT PRESENTED BY Lifetime Products</h3>
 					</div>
 
 					<br />

@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class UpcomingLocations extends React.Component {
 	render() {
 		return(
-			<div className='container'>
+			<div className='contain'>
 				<div className='locations-box flex-col'>
 					<div className='locations-header flex-col v-center pink accent-3 white-text'>
 						<h2>Upcoming Locations</h2>

@@ -14,14 +14,14 @@ class FAQ extends React.Component {
 	render() {
 
 		return(
-			<div className='container'>
+			<div className='contain'>
 
 				<br />
 				<br />
 				<br />
 
 				<div>
-					<h2>FAQ'S</h2>
+					<h1>FAQ'S</h1>
 				</div>
 
 				<ul className="collapsible" data-collapsible="accordion">

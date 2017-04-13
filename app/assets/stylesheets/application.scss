@@ -3,16 +3,67 @@
 @import 'about';
 @import 'location';
 @import 'faq';
+@import 'sponsor';
 @import 'nav';
+@import 'rules';
 @import 'footer';
+@import '404';
+
 
 // font-family: 'Orbitron', sans-serif;
+
+// bolder
 // font-family: 'Hammersmith One', sans-serif;
+
+// logo
 // font-family: 'Audiowide', cursive;
+
+// thin
 // font-family: 'Raleway', sans-serif;
 
 * {
 	// border: 1px solid red;
+}
+
+.main-txt {
+	font-size: 16px !important;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+	font-size: 18px;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+h5 {
+	// font-family: 'Orbitron', sans-serif;
+// font-family: 'Hammersmith One', sans-serif;
+// font-family: 'Audiowide', cursive;
+	// font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+	// font-family: 'Orbitron', sans-serif;
+// font-family: 'Hammersmith One', sans-serif;
+// font-family: 'Audiowide', cursive;
+	// font-family: 'Raleway', sans-serif;
 }
 
 .contain {
@@ -73,28 +124,17 @@
 	background-color: #b80504;
 }
 
+body {
+	font-size: 16px !important;
+	font-family: 'Ubuntu', sans-serif;
+}
+
 html, body {
 	// margin-left: 10px !important;
 	// margin-right: 10px !important;
 }
 
-h1 {
-	margin: 0;
-	font-size: 50px;
-	font-family: 'Audiowide', cursive;
-	font-weight: 300;
-	font-style: none;
-	letter-spacing: 5px;
-}
 
-h2 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-}
-
-h3 {
-	font-size: 18px;
-}
 
 input, textarea {
 	border: 1px solid black !important;
