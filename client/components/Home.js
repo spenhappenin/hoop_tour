@@ -14,7 +14,7 @@ class Home extends React.Component {
 
 					<div className=''>
 						<img className='header-logo' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1491865993/hoop_tour_logo_tc6szb.png' />
-						<h1>Hoop Tour USA</h1>
+						<h1 className='app-title'>Hoop Tour USA</h1>
 					</div>
 
 					<br />

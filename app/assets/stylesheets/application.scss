@@ -1,5 +1,6 @@
 @import 'materialize';
 @import 'home';
+@import 'about';
 @import 'location';
 @import 'faq';
 @import 'nav';
@@ -13,6 +14,15 @@
 * {
 	// border: 1px solid red;
 }
+
+.contain {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+// -------  F L E X  --------
+
 
 .flex-row {
 	display: flex;
@@ -54,6 +64,10 @@
 	justify-content: space-between;
 	// align-items: space-between;
 }
+
+
+// -------
+
 
 .main-red {
 	background-color: #b80504;
