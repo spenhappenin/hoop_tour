@@ -4,6 +4,7 @@ import App from './containers/App';
 import Home from './components/Home';
 import About from './components/About';
 import Locations from './components/Locations';
+import SaltLake from './components/SaltLake';
 import Sponsorship from './components/Sponsorship';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
@@ -17,6 +18,7 @@ export default (
 	    <Route path="/home" component={ Home } />
 	    <Route path="/about" component={ About } />
 	    <Route path="/locations" component={ Locations } />
+	    <Route path='/salt-lake' component={ SaltLake } />
 	    <Route path="/sponsorship" component={ Sponsorship } />
 	    <Route path="/FAQ" component={ FAQ } />
 	    <Route path="/contact" component={ Contact } />

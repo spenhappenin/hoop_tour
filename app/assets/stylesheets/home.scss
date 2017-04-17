@@ -58,3 +58,44 @@
 .locations-item {
 	width: 40%;
 }
+
+.home-image1-max {
+	height: 325px;
+	width: 375px;
+	background-image: url('http://www.hooptourusa.com/uploads/5/3/3/8/53384717/2737111.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.home-image1-min {
+	display: none;
+	height: 325px;
+	width: 375px;
+	background-image: url('http://www.hooptourusa.com/uploads/5/3/3/8/53384717/2737111.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 710px) {
+
+	.home-image1-max {
+		display: none;
+	}
+
+	.home-image1-min {
+		display: flex;
+		width: 90%;
+	}
+}
+
+
+
+
+
+
+
+
+
+

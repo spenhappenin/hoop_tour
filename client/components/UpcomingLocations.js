@@ -36,7 +36,7 @@ class UpcomingLocations extends React.Component {
 							<span className='locations-item'>Sep 15</span>
 							<span className='locations-item'>St. George, UT</span>
 						</Link>
-
+						
 					</div>
 				</div>
 			</div>

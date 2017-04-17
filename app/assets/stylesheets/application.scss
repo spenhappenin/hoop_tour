@@ -8,6 +8,8 @@
 @import 'rules';
 @import 'footer';
 @import '404';
+$primary-color: color("cyan", "base") !default;
+$secondary-color: color("cyan", "base") !default;
 
 
 // font-family: 'Orbitron', sans-serif;
@@ -147,6 +149,29 @@ textarea {
 
 .form-container {
 
+}
+
+.event-item-title {
+	
+}
+
+.event-item-icon {
+	margin-right: 15px;
+	height: 50px;
+	width: 50px;
+}
+
+.event-item-content {
+	margin-left: 60px;
+}
+
+.event-item-name {
+	justify-content: flex-start;
+}
+
+.event-item-name h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
 }
 
 
