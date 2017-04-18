@@ -12,6 +12,46 @@
 $primary-color: color("cyan", "base") !default;
 $secondary-color: color("cyan", "base") !default;
 
+.color-purple-txt {
+	color: #9c59b8 !important;
+}
+
+.color-purple {
+	background-color: #9c59b8 !important;
+}
+
+.color-white-txt {
+	color: #ecf0f1 !important;
+}
+
+.color-white {
+	background-color: #ecf0f1 !important;
+}
+
+.color-red-txt {
+	color: #e84c3d !important;
+}
+
+.color-red {
+	background-color: #e84c3d !important;
+}
+
+.color-drk-red-txt {
+	color: #c1392b !important;
+}
+
+.color-drk-red {
+	background-color: #c1392b !important;
+}
+
+.color-black-txt {
+	color: #2d3e50 !important;
+}
+
+.color-black {
+	background-color: #2d3e50 !important;
+}
+
 
 // font-family: 'Orbitron', sans-serif;
 
@@ -130,6 +170,7 @@ h6 {
 body {
 	font-size: 16px !important;
 	font-family: 'Ubuntu', sans-serif;
+	background-color: #ecf0f1;
 }
 
 html, body {

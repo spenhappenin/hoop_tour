@@ -7,7 +7,7 @@ class Home extends React.Component {
 		return(
 			<div>
 
-				<div className='main-header center'>
+				<div className='color-drk-red main-header center'>
 
 					<br />
 					<br />
@@ -27,7 +27,7 @@ class Home extends React.Component {
 					<br />
 
 					<div className=''>
-						<Link className='btn red'>Register!</Link>
+						<Link className='btn color-red'>Register!</Link>
 					</div>
 
 					<br />
@@ -49,7 +49,7 @@ class Home extends React.Component {
 
 					<div className=''>
 						<div className='locations-box flex-col'>
-							<div className='locations-header flex-col v-center pink accent-3 white-text'>
+							<div className='locations-header flex-col v-center color-purple'>
 								<h2>Upcoming Locations</h2>
 								<Link to={ '/locations' } className='white-text'>View All Cities</Link>
 							</div>
