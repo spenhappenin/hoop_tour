@@ -2,6 +2,7 @@
 @import 'home';
 @import 'about';
 @import 'location';
+@import 'event';
 @import 'faq';
 @import 'sponsor';
 @import 'nav';
@@ -151,28 +152,6 @@ textarea {
 
 }
 
-.event-item-title {
-	
-}
-
-.event-item-icon {
-	margin-right: 15px;
-	height: 50px;
-	width: 50px;
-}
-
-.event-item-content {
-	margin-left: 60px;
-}
-
-.event-item-name {
-	justify-content: flex-start;
-}
-
-.event-item-name h2 {
-	margin-top: 0;
-	margin-bottom: 10px;
-}
 
 
 

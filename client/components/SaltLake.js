@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import PresentedBy from './PresentedBy';
 
 class SaltLake extends React.Component {
 
@@ -7,6 +8,8 @@ class SaltLake extends React.Component {
 	  $(document).ready(function(){
 	    $('ul.tabs').tabs();
 	  });
+
+	  document.getElementById('top').scrollIntoView();
 	}
 
 	componentWillUpdate() {
@@ -115,6 +118,7 @@ class SaltLake extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='blue-text'>CHECK-IN</h2>
+									<span>Coming Soon</span>
 								</div>
 							</div>
 
@@ -127,6 +131,7 @@ class SaltLake extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='blue-text'>STARTING TIME</h2>
+									<span>Coming Soon</span>
 								</div>
 							</div>
 
@@ -139,6 +144,7 @@ class SaltLake extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='blue-text'>CHARITY HIGHLIGHT</h2>
+									<span>Coming Soon</span>
 								</div>
 							</div>
 
@@ -151,6 +157,7 @@ class SaltLake extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='blue-text'>GRUB</h2>
+									<span>Coming Soon</span>
 								</div>
 							</div>
 
@@ -166,11 +173,13 @@ class SaltLake extends React.Component {
 						<br />
 					</div>
 
-						<div className='row'>
-							<div className='col s12 m12 l12 center blue lighten-2 white-text'>
-								<h2>REGISTER NOW!</h2>
-							</div>
+					<div className='row'>
+						<div className='register-now col s12 m12 l12 center blue lighten-2'>
+							<Link><h2>REGISTER NOW!</h2></Link>
 						</div>
+					</div>
+
+					<PresentedBy />
 
 				</div>
 
