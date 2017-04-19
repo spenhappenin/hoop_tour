@@ -5,6 +5,8 @@ class FAQ extends React.Component {
 
 	componentDidMount() {
 		$('.collapsible').collapsible();
+
+		document.getElementById('top').scrollIntoView();
 	}
 
 	componentDidUpdate() {

@@ -2,6 +2,11 @@ import React from 'react';
 import { Link } from 'react-router';
 
 class Locations extends React.Component {
+
+	componentDidMount() {
+		document.getElementById('top').scrollIntoView();
+	}
+
 	render() {
 		return(
 			<div className='contain'>
@@ -16,7 +21,7 @@ class Locations extends React.Component {
 
 				<div className='row'>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header'>
+						<div className='month-header color-blue-txt'>
 							<h2>JUNE</h2>
 						</div>
 						<div className='month-body'>
@@ -27,7 +32,7 @@ class Locations extends React.Component {
 						</div>
 					</div>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header'>
+						<div className='month-header color-blue-txt'>
 							<h2>JULY</h2>
 						</div>
 						<div className='month-body'>
@@ -46,7 +51,7 @@ class Locations extends React.Component {
 						</div>
 					</div>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header'>
+						<div className='month-header color-blue-txt'>
 							<h2>AUGUST</h2>
 						</div>
 						<div className='month-body'>
@@ -59,7 +64,7 @@ class Locations extends React.Component {
 				</div>
 				<div className='row'>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header'>
+						<div className='month-header color-blue-txt'>
 							<h2>SEPTEMBER</h2>
 						</div>
 						<div className='month-body'>

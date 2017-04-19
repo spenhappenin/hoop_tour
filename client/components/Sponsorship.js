@@ -5,6 +5,8 @@ class Sponsorship extends React.Component {
 
 	componentDidMount() {
 		$('select').material_select();
+
+		document.getElementById('top').scrollIntoView();
 	}
 
 	componentWillUpdate() {

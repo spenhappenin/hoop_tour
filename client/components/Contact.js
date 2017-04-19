@@ -2,9 +2,14 @@ import React from 'react';
 import Form from './Form';
 
 class Contact extends React.Component {
+
+	componentDidMount() {
+		document.getElementById('top').scrollIntoView();
+	}
+	
 	render() {
 		return(
-			<div className='contain'>
+			<div className='contain center'>
 
 				<br />
 				<br />

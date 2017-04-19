@@ -74,7 +74,7 @@ class SaltLake extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454198/man_cij9eu.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='blue-text'>TEAMS</h2>
+									<h2 className='color-blue-txt'>TEAMS</h2>
 									<span>Min 3 players/team, Max 4 players/team</span>
 								</div>
 							</div>
@@ -87,7 +87,7 @@ class SaltLake extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454286/list_itdypq.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='blue-text'>DIVISIONS</h2>
+									<h2 className='color-blue-txt'>DIVISIONS</h2>
 									<span>(Boys/Girls): Elementary, Junior High, H.S. JV, H.S. Varsity, Competitive Adult 18+</span>
 								</div>
 							</div>
@@ -100,7 +100,7 @@ class SaltLake extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454023/location-pin_q1eye1.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='blue-text'>EVENT ADDRESS</h2>
+									<h2 className='color-blue-txt'>EVENT ADDRESS</h2>
 									<ul>
 										<li>Maverick Center (parking lot)</li>
 										<li>3200 S Decker Laker Dr</li>
@@ -117,7 +117,7 @@ class SaltLake extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454109/check_tuxiar.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='blue-text'>CHECK-IN</h2>
+									<h2 className='color-blue-txt'>CHECK-IN</h2>
 									<span>Coming Soon</span>
 								</div>
 							</div>
@@ -130,7 +130,7 @@ class SaltLake extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454131/clock_rhfpbw.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='blue-text'>STARTING TIME</h2>
+									<h2 className='color-blue-txt'>STARTING TIME</h2>
 									<span>Coming Soon</span>
 								</div>
 							</div>
@@ -143,7 +143,7 @@ class SaltLake extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492453106/heart_bumgny.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='blue-text'>CHARITY HIGHLIGHT</h2>
+									<h2 className='color-blue-txt'>CHARITY HIGHLIGHT</h2>
 									<span>Coming Soon</span>
 								</div>
 							</div>
@@ -156,7 +156,7 @@ class SaltLake extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492453101/bowl_gd2r9r.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='blue-text'>GRUB</h2>
+									<h2 className='color-blue-txt'>GRUB</h2>
 									<span>Coming Soon</span>
 								</div>
 							</div>

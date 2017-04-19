@@ -1,6 +1,11 @@
 import React from 'react';
 
 class About extends React.Component {
+
+	componentDidMount() {
+		document.getElementById('top').scrollIntoView();
+	}
+	
 	render() {
 		return(
 			<div className='contain'>

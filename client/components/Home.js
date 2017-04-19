@@ -3,11 +3,16 @@ import { Link } from 'react-router';
 import UpcomingLocations from './UpcomingLocations';
 
 class Home extends React.Component {
+
+	componentDidMount() {
+		document.getElementById('top').scrollIntoView();
+	}
+	
 	render() {
 		return(
 			<div>
 
-				<div className='color-drk-red main-header center'>
+				<div className='color-red main-header center'>
 
 					<br />
 					<br />
@@ -27,7 +32,7 @@ class Home extends React.Component {
 					<br />
 
 					<div className=''>
-						<Link className='btn color-red'>Register!</Link>
+						<Link className='btn color-blue'>Register!</Link>
 					</div>
 
 					<br />
@@ -49,7 +54,7 @@ class Home extends React.Component {
 
 					<div className=''>
 						<div className='locations-box flex-col'>
-							<div className='locations-header flex-col v-center color-purple'>
+							<div className='locations-header flex-col v-center color-cyan white-text'>
 								<h2>Upcoming Locations</h2>
 								<Link to={ '/locations' } className='white-text'>View All Cities</Link>
 							</div>
@@ -60,7 +65,7 @@ class Home extends React.Component {
 									<span className='locations-item'>Salt Lake City, UT</span>
 								</Link>
 
-								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around blue lighten-4'>
+								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around color-light-cyan'>
 									<span className='locations-item'>Jul 13</span>
 									<span className='locations-item'>Logan, UT</span>
 								</Link>
@@ -70,7 +75,7 @@ class Home extends React.Component {
 									<span className='locations-item'>Idaho Falls, ID</span>
 								</Link>
 
-								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around blue lighten-4'>
+								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around color-light-cyan'>
 									<span className='locations-item'>Aug 15</span>
 									<span className='locations-item'>Denver, CO</span>
 								</Link>

@@ -1,6 +1,11 @@
 import React from 'react';
 
 class Form extends React.Component {
+
+	componentDidMount() {
+		document.getElementById('top').scrollIntoView();
+	}
+	
 	render() {
 		return(
 			<div className='form-container center'>

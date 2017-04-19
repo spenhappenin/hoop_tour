@@ -2,6 +2,11 @@ import React from 'react';
 import { Link } from 'react-router';
  
 class UpcomingLocations extends React.Component {
+
+	componentDidMount() {
+		document.getElementById('top').scrollIntoView();
+	}
+	
 	render() {
 		return(
 			<div className='contain'>
