@@ -1,5 +1,4 @@
 import React from 'react';
-import Collapsible from 'react-collapsible';
 
 class FAQ extends React.Component {
 
