@@ -36,7 +36,12 @@ nav {
 
 @media #{$small-and-down} {
 	nav {
-		height: 80px;
+		height: 65px;
+	}
+
+	.nav-logo, .nav-logo img {
+		height: 50px;
+		width: 50px;
 	}
 }
 
