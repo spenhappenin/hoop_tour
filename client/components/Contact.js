@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from './Form';
+import PresentedBy from './PresentedBy';
 
 class Contact extends React.Component {
 
@@ -20,6 +21,8 @@ class Contact extends React.Component {
 				</div>
 
 				<Form />
+
+				<PresentedBy />
 
 			</div>
 		)

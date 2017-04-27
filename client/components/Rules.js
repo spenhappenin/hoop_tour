@@ -1,4 +1,5 @@
 import React from 'react';
+import PresentedBy from './PresentedBy';
 
 class Rules extends React.Component {
 
@@ -74,6 +75,8 @@ class Rules extends React.Component {
 						<li>Everyone who is participating in the tournament must sign a waiver; there will be no exceptions to this rule. If a waiver is not signed, that contestant cannot play until it is signed. The waiver must be signed by a parent/guardian if contestant is not over the age of 18.</li>
 					</ol>
 				</div>
+
+				<PresentedBy />
 
 			</div>
 		)

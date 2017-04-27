@@ -1,4 +1,5 @@
 import React from 'react';
+import PresentedBy from './PresentedBy';
 
 class About extends React.Component {
 
@@ -26,7 +27,10 @@ class About extends React.Component {
 
 				<div className='row'>
 					<span>​We love involving the community by bringing people together by playing ball, enjoying delicious food and helping a local charity. We feel it's our mission to give back and help those in need. </span>
-				</div>					
+				</div>	
+
+				<PresentedBy />				
+				
 			</div>
 		)
 	}

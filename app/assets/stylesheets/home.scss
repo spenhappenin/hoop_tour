@@ -25,6 +25,11 @@
 	width: 125px;
 }
 
+.lifetime-header {
+	height: 110px;
+	width: 250px;
+}
+
 .locations-box {
 	border: 1px solid black;
 	border-radius: 3px;
@@ -76,6 +81,10 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.foo {
+	font-size: 40px;
 }
 
 @media (max-width: 710px) {

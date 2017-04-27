@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import UpcomingLocations from './UpcomingLocations';
+import PresentedBy from './PresentedBy';
 
 class Home extends React.Component {
 
@@ -26,22 +27,21 @@ class Home extends React.Component {
 					<br />
 
 					<div>
-						<h3>THE NATION'S PREMIER 3 ON 3 BASKETBALL EVENT PRESENTED BY Lifetime Products</h3>
+						<h2 className='foo'>#UniteTheCity</h2>
 					</div>
 
 					<br />
 
 					<div className=''>
-						<Link className='btn color-blue'>Register!</Link>
+						<Link to={'/locations'} className='btn color-blue'>Register!</Link>
 					</div>
 
 					<br />
 					<br />
 					<br />
-					<br />
 
 					<div>
-						<img src='https://www.lifetime.com/content/images/lifetimelogo-w-tag_black.png' />
+						<img className='lifetime-header' src='https://www.lifetime.com/content/images/lifetimelogo-w-tag_black.png' />
 					</div>
 
 				</div>
@@ -95,12 +95,9 @@ class Home extends React.Component {
 				</div>
 
 				
-					<div className='home-image1-min'></div>
+				<div className='home-image1-min'></div>
 
-
-				<br />
-				<br />
-				<br />
+				<PresentedBy />
 
 			</div>
 		)

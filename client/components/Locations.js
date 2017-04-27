@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import PresentedBy from './PresentedBy';
 
 class Locations extends React.Component {
 
@@ -79,12 +80,8 @@ class Locations extends React.Component {
 				<br />
 				<br />
 				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
+
+				<PresentedBy />
 
 			</div>
 		)

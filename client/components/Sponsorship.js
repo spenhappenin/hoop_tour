@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from './Form';
+import PresentedBy from './PresentedBy';
 
 class Sponsorship extends React.Component {
 
@@ -21,8 +22,6 @@ class Sponsorship extends React.Component {
 				<br />
 				<br />
 
-				<div className='sponsor-banner'></div>
-
 				<div>
 					<h1>Hoop Tour USA Is Coming To Your City!</h1>
 				</div>
@@ -36,6 +35,8 @@ class Sponsorship extends React.Component {
 				</div>
 
 				<Form />
+
+				<PresentedBy />
 
 			</div>
 		)
