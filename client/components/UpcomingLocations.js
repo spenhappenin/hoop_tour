@@ -11,7 +11,7 @@ class UpcomingLocations extends React.Component {
 		return(
 			<div className='contain'>
 				<div className='locations-box flex-col'>
-					<div className='locations-header flex-col v-center pink accent-3 white-text'>
+					<div className='locations-header flex-col v-center white-text'>
 						<h2>Upcoming Locations</h2>
 						<Link to={ '/locations' } className='white-text'>View All Cities</Link>
 					</div>

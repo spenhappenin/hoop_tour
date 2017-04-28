@@ -1,5 +1,6 @@
 .collapsible-header {
 	border-bottom: none;
+    transition: 0.7s;
 }
 
 .collapsible-header.active {
@@ -9,21 +10,18 @@
 }
 
 .collapsible-header:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    // background-image: url('http://res.cloudinary.com/dtb6lx1s4/image/upload/v1491889877/circle-with-plus_xvfayx.svg');
-    // background-size: contain;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // height: 15px;
-    // width: 15px;
-    // color: #777;
+    content: '+';
+    font-size: 30px;
+    line-height: 40px;
     margin-left: 5px;
     float: left;
     padding-right: 15px;
 }
 
 .collapsible-header.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "-";
+    font-size: 40px;
+    line-height: 40px;
 }
 
 .collapsible-body {

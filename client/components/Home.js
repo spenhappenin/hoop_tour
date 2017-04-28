@@ -54,7 +54,7 @@ class Home extends React.Component {
 
 					<div className=''>
 						<div className='locations-box flex-col'>
-							<div className='locations-header flex-col v-center color-cyan white-text'>
+							<div className='locations-header flex-col v-center color-blue white-text'>
 								<h2>Upcoming Locations</h2>
 								<Link to={ '/locations' } className='white-text'>View All Cities</Link>
 							</div>
