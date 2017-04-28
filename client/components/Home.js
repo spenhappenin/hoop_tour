@@ -88,14 +88,7 @@ class Home extends React.Component {
 							</div>
 						</div>
 					</div>
-
-					<div className=''>
-						<div className='home-image1-max'></div>
-					</div>
 				</div>
-
-				
-				<div className='home-image1-min'></div>
 
 				<PresentedBy />
 
