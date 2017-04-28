@@ -9,27 +9,27 @@ class Form extends React.Component {
 	render() {
 		return(
 			<div className='form-container center'>
-				<form>
+				<form action='https://formspree.io/hooptourusa@gmail.com' method='POST'>
 					<div className='container row'>
 					  <div className='col s12 m6 l6'>
 					  	<label>First Name</label>
-							<input className=''/>
+							<input name='first-name' className=''/>
 						</div>
 						<div className='col s12 m6 l6'>
 					  	<label>Last Name</label>
-							<input className=''/>
+							<input name='last-name' className=''/>
 						</div>
 					</div>
 					<div className='container row'>
 						<div className='col s12 m12 l12'>
 							<label>Email</label>
-							<input />
+							<input name='email' />
 						</div>
 					</div>
 				  <div className="container row">
 		        <div className=" col s12">
 		          <label>Comment</label>
-		          <textarea className=""></textarea>
+		          <textarea name='comment' className=""></textarea>
 		        </div>
 				  </div>
 					<div className='row'>
