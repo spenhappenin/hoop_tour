@@ -29,8 +29,8 @@ class SaltLake extends React.Component {
 				<div className='row center'>
 					<h2>SALT LAKE, UT</h2>
 					<h2>JUNE 20 | MAVERICK CENTER <a href='https://www.google.com/maps/place/Maverik+Center/@40.7027085,-111.9527664,17z/data=!3m1!4b1!4m5!3m4!1s0x87528b606dfa20f9:0x76c3f1acf29b1abf!8m2!3d40.7027085!4d-111.9505724' target='_blank'><i className="medium material-icons red-text">room</i></a></h2>
-					<h4 className='blue-text'>TICKETS NOW AVAILABLE</h4>
-					<Link to={ '/home' } className='btn blue lighten-2'>REGISTER NOW!</Link>
+					<h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4>
+					<Link to={ '/home' } className='btn color-blue'>REGISTER NOW!</Link>
 				</div>
 
 				<br />
@@ -174,7 +174,7 @@ class SaltLake extends React.Component {
 					</div>
 
 					<div className='row'>
-						<div className='register-now col s12 m12 l12 center blue lighten-2'>
+						<div className='register-now col s12 m12 l12 center color-blue'>
 							<Link><h2>REGISTER NOW!</h2></Link>
 						</div>
 					</div>
