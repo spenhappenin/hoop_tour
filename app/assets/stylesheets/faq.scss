@@ -1,29 +1,51 @@
 .collapsible-header {
-	border-bottom: none;
-    transition: 0.7s;
+  border-bottom: none;
+  transition: 0.7s;
 }
 
 .collapsible-header.active {
-	transition: 0.7s;
-	background-color: #64b5f6 !important;
-	color: white;
+  transition: 0.7s;
+  background-color: #64b5f6 !important;
+  color: white;
 }
 
 .collapsible-header:after {
-    content: '+';
-    font-size: 30px;
-    line-height: 40px;
-    margin-left: 5px;
-    float: left;
-    padding-right: 15px;
+  // content: '+';
+  font-size: 30px;
+  line-height: 40px;
+  margin-left: 5px;
+  float: left;
+  padding-right: 15px;
 }
 
 .collapsible-header.active:after {
-    content: "-";
-    font-size: 40px;
-    line-height: 40px;
+  // content: "-";
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .collapsible-body {
-	padding: 15px;
+  padding: 15px;
 }
+
+@media ( max-width: 643px ) {
+  .collapsible-header {
+    font-size: 14px;
+  }
+
+  .collapsible-body {
+    font-size: 14px;
+  }
+}
+
+// @media ( max-width: 585px ) {
+//   .collapsible-header {
+//     font-size: 13px;
+//   }
+// }
+
+// @media ( max-width: 552px ) {
+//   .collapsible-header {
+//     font-size: 12px;
+//   }
+// }
