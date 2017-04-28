@@ -65,7 +65,7 @@ class Home extends React.Component {
 									<span className='locations-item'>Salt Lake City, UT</span>
 								</Link>
 
-								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around color-light-cyan'>
+								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around row-color'>
 									<span className='locations-item'>Jul 13</span>
 									<span className='locations-item'>Logan, UT</span>
 								</Link>
@@ -75,7 +75,7 @@ class Home extends React.Component {
 									<span className='locations-item'>Idaho Falls, ID</span>
 								</Link>
 
-								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around color-light-cyan'>
+								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around row-color'>
 									<span className='locations-item'>Aug 15</span>
 									<span className='locations-item'>Denver, CO</span>
 								</Link>
