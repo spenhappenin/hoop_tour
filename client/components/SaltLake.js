@@ -36,31 +36,14 @@ class SaltLake extends React.Component {
 				<br />
 				<br />
 
-			  <div className="row">
-			    <div className="col s12">
-			      <ul className="tabs">
-			        <li className="tab col s12 m4 l4"><a className='red-text' href="#price"><h4>EVENT PRICING</h4></a></li>
-			        <li className="tab col s12 m4 l4"><a className='red-text' href="#info"><h4>EVENT INFO</h4></a></li>
-			        <li className="tab col s12 m4 l4"><a className='red-text' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
-			      </ul>
-			    </div>
+			  <div className="flex-row h-center event-tabs">
+		      <ul className="tabs">
+		        <li className="tab col s12 m4 l4"><a className='red-text' href="#info"><h4>EVENT INFO</h4></a></li>
+		        <li className="tab col s12 m4 l4"><a className='red-text' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
+		      </ul>
 			  </div>
 
 				<br />
-
-				<div id='price' className='row'>
-					<div className=''>
-						<h2>PRICING</h2>
-						<h2>$100/per team</h2>
-						<h4>YOUR TICKET INCLUDES:</h4>
-						<ul>
-							<li>3 games guaranteed/team</li>
-							<li>Includes free drawstring backpack!</li>
-						</ul>
-					</div>
-				</div>
-
-					
 
 					<div id='info' className=''>
 
@@ -69,6 +52,24 @@ class SaltLake extends React.Component {
 						</div>
 
 						<div>
+							<div className='flex-row'>
+								<div>
+									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1493407164/credit_hshol3.svg' />
+								</div>
+								<div className='flex-col event-item-name'>
+									<h2 className='color-blue-txt'>Pricing</h2>
+									<h2>$100/per team</h2>
+									<h4>YOUR TICKET INCLUDES:</h4>
+									<ul>
+										<li>- 3 games guaranteed/team</li>
+										<li>- Includes free drawstring backpack!</li>
+									</ul>
+								</div>
+							</div>
+
+							<br />
+							<br />
+
 							<div className='flex-row'>
 								<div>
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454198/man_cij9eu.svg' />

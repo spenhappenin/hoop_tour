@@ -15,11 +15,7 @@ class Home extends React.Component {
 
 				<div className='color-red main-header center'>
 
-					<br />
-					<br />
-
 					<div className=''>
-						<img className='header-logo' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1491865993/hoop_tour_logo_tc6szb.png' />
 						<br />
 						<img className='responsive-img' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492487790/hoop_tour_white_text_zgdrwx.png' />
 					</div>
@@ -86,6 +82,31 @@ class Home extends React.Component {
 								</Link>
 								
 							</div>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<br />
+				<br />
+
+				<div className='row color-black white-text'>
+					<div className='col s12 m12 l6'>
+						<div className='center'>
+							<p>Come dressed to impress because it’s not every day you can strut through town with your hot bod, cool dance moves and slick slides for this all day party. Did we mention 1000 feet?</p>
+							<Link to={'/locations'} className='btn color-blue'>Register!</Link>
+						</div>
+						<div>
+							<img className='responsive-img' src='https://www.slidethecity.com/wp-content/uploads/2016/09/xIMG_6569.png.pagespeed.ic.sGjxeFWIu2.webp' />
+						</div>
+					</div>
+					<div className='col s12 m12 l6'>
+		      <div className="video-container">
+		        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+		      </div>
+						<div className='center'>
+							<p>Come dressed to impress because it’s not every day you can strut through town with your hot bod, cool dance moves and slick slides for this all day party. Did we mention 1000 feet?</p>
+							<Link to={'/locations'} className='btn color-blue'>Register!</Link>
 						</div>
 					</div>
 				</div>
