@@ -44,7 +44,7 @@ class Locations extends React.Component {
 								</Link>
 							</div>
 							<div>
-								<Link to={ '/salt-lake' }>
+								<Link to={ '/idaho-falls' }>
 									<span className='locations-item month-spacing'>JUL 26</span>
 									<span className='locations-item'>IDAHO FALLS, ID</span>
 								</Link>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import PresentedBy from './PresentedBy';
 
-class SaltLake extends React.Component {
+class IdahoFalls extends React.Component {
 
 	componentDidMount() {
 	  $(document).ready(function(){
@@ -27,9 +27,9 @@ class SaltLake extends React.Component {
 				<br />
 
 				<div className='row center'>
-					<h2>SALT LAKE, UT</h2>
-					<h2>JUNE 20 | MAVERICK CENTER <a href='https://www.google.com/maps/place/Maverik+Center/@40.7027085,-111.9527664,17z/data=!3m1!4b1!4m5!3m4!1s0x87528b606dfa20f9:0x76c3f1acf29b1abf!8m2!3d40.7027085!4d-111.9505724' target='_blank'><i className="medium material-icons red-text">room</i></a></h2>
-					{ /*<h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4>*/ }
+					<h2>IDAH FALLS, ID</h2>
+					<h2>JULY 26 | SNAKE RIVER LANDING <a href='https://www.google.com/maps/place/Snake+River+Landing/@43.4837707,-112.0535597,17z/data=!3m1!4b1!4m5!3m4!1s0x5354596af2082d67:0xe792e3eff4e1cd74!8m2!3d43.4837707!4d-112.0513657' target='_blank'><i className="medium material-icons red-text">room</i></a></h2>
+					{ /* <h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4> */ }
 					<h4 className='color-blue-txt'>REGISTRATION COMING SOON!</h4>
 					{ /*<Link to={ '/home' } className='btn color-blue'>REGISTER NOW!</Link>*/ }
 				</div>
@@ -189,4 +189,4 @@ class SaltLake extends React.Component {
 	}
 }
 
-export default SaltLake;
+export default IdahoFalls;
