@@ -27,7 +27,7 @@ class Sponsorship extends React.Component {
 				</div>
 
 				<div>
-					<span>We anticipate hundreds of players and spectators for each location and event. We will have teams of all ages starting with Elementary school and goes up to our Adult Competitive division(18+). We will have music, tons of basketball, prizes, and food vendors. This is a great opportunity for you to reach the community and market your brand and business! Sponsorship proceeds will be used to market our event, and of course, make it a spectacular 3V3 basketball event!</span>
+					<span>Hoop Tour USA is on a mission to #UniteTheCity everywhere we go.  In order for this to happen, we provide Sponsorship and Exhibitor opportunities for local and national businesses to be a part of the #UltimateBasketballExperience.</span>
 				</div>
 
 				<div>

@@ -17,7 +17,7 @@ class PresentedBy extends React.Component {
 				<br />
 				<br />
 
-				<div>
+				{/*<div>
 					<h4>SPONSORED BY</h4>
 					<hr />
 					<div className='row flex-row v-center h-center'>
@@ -34,7 +34,7 @@ class PresentedBy extends React.Component {
 				</div>
 
 				<br />
-				<br />
+				<br />*/}
 
 			</div>
 		);
