@@ -6,4 +6,52 @@ footer {
 .footer-logo {
 	height: 90px;
 	width: 90px;
+	margin-right: 25px;
 }
+
+.footer-copyright {
+	margin-right: 25px;
+}
+
+.footer-menu {
+	word-spacing: 3px;
+}
+
+.footer-menu a {
+	color: #fff;
+}
+
+.footer-menu a:hover {
+	opacity: 0.7;
+}
+
+.fa {
+		color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social-icons {
+	margin-right: 25px;
+}
+
+.social-icons i {
+	padding: 0;
+	margin: 5px;
+	height: 0px;
+	width: 40px;
+}
+
+  @media #{$small-and-down} {
+    .footer-copyright {
+    	font-size: 10px;
+    }
+  }
