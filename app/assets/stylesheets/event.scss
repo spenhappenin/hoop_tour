@@ -29,3 +29,11 @@
 	background-color: #e3493b !important;
 	transition: 0.5s;
 }
+
+@media (min-width: 993px) {
+	.tabs {
+		display: flex;
+		justify-content: center !important;
+		justify-content: space-around !important;
+	}
+}

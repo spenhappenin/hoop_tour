@@ -37,10 +37,10 @@ class IdahoFalls extends React.Component {
 				<br />
 				<br />
 
-			  <div className="flex-row h-center event-tabs">
+			  <div className="">
 		      <ul className="tabs">
-		        <li className="tab col s12 m4 l4"><a className='red-text' href="#info"><h4>EVENT INFO</h4></a></li>
-		        <li className="tab col s12 m4 l4"><a className='red-text' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
+		        <li className="tab"><a className='red-text' href="#info"><h4>EVENT INFO</h4></a></li>
+		        <li className="tab"><a className='red-text' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
 		      </ul>
 			  </div>
 

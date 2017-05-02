@@ -12,6 +12,10 @@
 $primary-color: color("cyan", "base") !default;
 $secondary-color: color("cyan", "base") !default;
 
+.indicator {
+	background-color: #e3493b !important;
+}
+
 .color-blue-txt {
 	color: #304ffe !important;
 }
