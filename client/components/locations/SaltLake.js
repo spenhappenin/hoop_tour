@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
-import PresentedBy from './PresentedBy';
+import PresentedBy from '../PresentedBy';
 
-class IdahoFalls extends React.Component {
+class SaltLake extends React.Component {
 
 	componentDidMount() {
 	  $(document).ready(function(){
@@ -27,9 +27,9 @@ class IdahoFalls extends React.Component {
 				<br />
 
 				<div className='row center'>
-					<h2>IDAH FALLS, ID</h2>
-					<h2>JULY 26 | SNAKE RIVER LANDING <a href='https://www.google.com/maps/place/Snake+River+Landing/@43.4837707,-112.0535597,17z/data=!3m1!4b1!4m5!3m4!1s0x5354596af2082d67:0xe792e3eff4e1cd74!8m2!3d43.4837707!4d-112.0513657' target='_blank'><i className="medium material-icons red-text">room</i></a></h2>
-					{ /* <h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4> */ }
+					<h2>SALT LAKE, UT</h2>
+					<h2>AUG 26 | COMMING SOON! <a target='_blank'><i className="medium material-icons black-text">room</i></a></h2>
+					{ /*<h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4>*/ }
 					<h4 className='color-blue-txt'>REGISTRATION COMING SOON!</h4>
 					{ /*<Link to={ '/home' } className='btn color-blue'>REGISTER NOW!</Link>*/ }
 				</div>
@@ -39,8 +39,8 @@ class IdahoFalls extends React.Component {
 
 			  <div className="flex-row h-center event-tabs">
 		      <ul className="tabs">
-		        <li className="tab col s12 m4 l4"><a className='red-text' href="#info"><h4>EVENT INFO</h4></a></li>
-		        <li className="tab col s12 m4 l4"><a className='red-text' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
+		        <li className="tab"><a className='red-text' href="#info"><h4>EVENT INFO</h4></a></li>
+		        <li className="tab"><a className='red-text' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
 		      </ul>
 			  </div>
 
@@ -103,11 +103,7 @@ class IdahoFalls extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='color-blue-txt'>EVENT ADDRESS</h2>
-									<ul>
-										<li>Maverick Center (parking lot)</li>
-										<li>3200 S Decker Laker Dr</li>
-										<li>West Valley City, 84119</li>
-									</ul>
+									<span>Coming Soon</span>
 								</div>
 							</div>
 
@@ -189,4 +185,4 @@ class IdahoFalls extends React.Component {
 	}
 }
 
-export default IdahoFalls;
+export default SaltLake;
