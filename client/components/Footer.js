@@ -14,7 +14,6 @@ class Footer extends React.Component {
               <a href='#'>FAQ</a> | 
               <a href='#'> Charity</a> | 
               <a href='#'> Contact</a> | 
-              <a href='#'> Corporate Teams</a> | 
               <a href='#'> Press</a> | 
               <a href='#'> Private Policy</a> | 
               <a href='#'> Terms & Conditions</a>
