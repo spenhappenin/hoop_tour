@@ -3,7 +3,9 @@ nav {
 }
 
 .nav-wrapper {
-	// background-color: #252525 !important;
+	// background-color: #171616;
+	// background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+	background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -32,6 +34,10 @@ nav {
 
 .nav-item {
 	font-size: 16px;
+}
+
+.nav-item:hover {
+	opacity: 0.5;
 }
 
 .ham-icon {
