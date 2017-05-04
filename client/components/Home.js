@@ -45,8 +45,8 @@ class Home extends React.Component {
 				<br />
 				<br />
 
-				<div className='center'>
-					<h2>This year we are back and bigger than ever!</h2>
+				<div className='center catch-phrase'>
+					<h2>This year we are back to bring you the #UltimateBasketballExperience!</h2>
 				</div>
 
 				<br />
