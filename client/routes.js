@@ -15,6 +15,7 @@ import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Rules from './components/Rules';
 import NoMatch from './components/NoMatch';
+import ComingSoon from './components/ComingSoon';
 
 export default (
   <Route>
@@ -33,6 +34,7 @@ export default (
 	    <Route path="/FAQ" component={ FAQ } />
 	    <Route path="/contact" component={ Contact } />
 	    <Route path="/rules" component={ Rules } />
+	    <Route path='/coming-soon' component={ ComingSoon } />
 	    <Route path="*" status={ 404 } component={ NoMatch }/>
     </Route>
   </Route>

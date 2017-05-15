@@ -11,12 +11,12 @@ class Footer extends React.Component {
           </div>
           <div className=''>
             <span className='footer-menu'>
-              <a href='#'>FAQ</a> | 
-              <a href='#'> Charity</a> | 
-              <a href='#'> Contact</a> | 
-              <a href='#'> Press</a> | 
-              <a href='#'> Private Policy</a> | 
-              <a href='#'> Terms & Conditions</a>
+              <Link to={ 'faq' }> FAQ</Link> |
+              <Link to={ 'coming-soon' }> Charity</Link> |
+              <Link to={ 'contact' }> Contact</Link> |
+              <Link to={ 'coming-soon' }> Press</Link> |
+              <Link to={ 'coming-soon' }> Private Policy</Link> |
+              <Link to={ 'coming-soon' }> Terms & Conditions</Link>
             </span>
           </div>
         </div>
