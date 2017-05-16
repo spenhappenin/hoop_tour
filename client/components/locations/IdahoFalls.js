@@ -29,9 +29,7 @@ class IdahoFalls extends React.Component {
 				<div className='row center'>
 					<h2>IDAHO FALLS, ID</h2>
 					<h2>JULY 8 | SNAKE RIVER LANDING <a href='https://www.google.com/maps/place/Snake+River+Landing/@43.4837707,-112.0535597,17z/data=!3m1!4b1!4m5!3m4!1s0x5354596af2082d67:0xe792e3eff4e1cd74!8m2!3d43.4837707!4d-112.0513657' target='_blank'><i className="medium material-icons red-text">room</i></a></h2>
-					{ /* <h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4> */ }
-					<h4 className='color-blue-txt'>REGISTRATION COMING SOON!</h4>
-					{ /*<Link to={ '/home' } className='btn color-blue'>REGISTER NOW!</Link>*/ }
+					<a href='https://hooptourusa.sportngin.com/register/form/657804307' target='_blank' className='btn color-blue'>REGISTER NOW!</a>
 				</div>
 
 				<br />
@@ -177,7 +175,7 @@ class IdahoFalls extends React.Component {
 
 					<div className='row'>
 						<div className='register-now col s12 m12 l12 center color-blue'>
-							<Link><h2>REGISTER NOW!</h2></Link>
+							<a href='https://hooptourusa.sportngin.com/register/form/657804307' target='_blank'><h2>REGISTER NOW!</h2></a>
 						</div>
 					</div>
 
