@@ -59,7 +59,7 @@ class Logan extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='color-blue-txt'>Pricing</h2>
-									<h2>$100/per team</h2>
+									<h2>$120/per team</h2>
 									<h4>YOUR TICKET INCLUDES:</h4>
 									<ul>
 										<li>- 3 games guaranteed/team</li>

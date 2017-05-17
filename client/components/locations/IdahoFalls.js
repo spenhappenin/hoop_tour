@@ -57,7 +57,7 @@ class IdahoFalls extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='color-blue-txt'>Pricing</h2>
-									<h2>$100/per team</h2>
+									<h2>$120/per team</h2>
 									<h4>YOUR TICKET INCLUDES:</h4>
 									<ul>
 										<li>- 3 games guaranteed/team</li>
@@ -118,7 +118,7 @@ class IdahoFalls extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='color-blue-txt'>CHECK-IN</h2>
-									<span>Coming Soon</span>
+									<span>7:00 a.m. - 7:30 a.m.</span>
 								</div>
 							</div>
 
@@ -131,7 +131,7 @@ class IdahoFalls extends React.Component {
 								</div>
 								<div className='flex-col event-item-name'>
 									<h2 className='color-blue-txt'>STARTING TIME</h2>
-									<span>Coming Soon</span>
+									<span>8:00 a.m.</span>
 								</div>
 							</div>
 
