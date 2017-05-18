@@ -14,29 +14,31 @@ class Home extends React.Component {
 			<div>
 				<div className='color-red main-header center'>
 					<div className='overlay'>
-						<div className=''>
+						<div className='flex-col v-center h-center'>
+							<div className=''>
+								<br />
+								<img className='responsive-img' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492487790/hoop_tour_white_text_zgdrwx.png' />
+							</div>
+
 							<br />
-							<img className='responsive-img' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492487790/hoop_tour_white_text_zgdrwx.png' />
-						</div>
 
-						<br />
+							<div>
+								<h2 className='foo'>#UniteTheCity</h2>
+							</div>
 
-						<div>
-							<h2 className='foo'>#UniteTheCity</h2>
-						</div>
+							<br />
 
-						<br />
+							<div className=''>
+								<Link to={'/locations'} className='btn color-blue'>Register!</Link>
+							</div>
 
-						<div className=''>
-							<Link to={'/locations'} className='btn color-blue'>Register!</Link>
-						</div>
+							<br />
+							<br />
+							<br />
 
-						<br />
-						<br />
-						<br />
-
-						<div>
-							<img className='lifetime-header' src='https://www.lifetime.com/content/images/lifetimelogo-w-tag_black.png' />
+							<div>
+								<img className='lifetime-header' src='https://www.lifetime.com/content/images/lifetimelogo-w-tag_black.png' />
+							</div>
 						</div>
 					</div>
 				</div>
