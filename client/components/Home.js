@@ -17,7 +17,7 @@ class Home extends React.Component {
 
 					<div className=''>
 						<br />
-						<img className='responsive-img' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492487790/hoop_tour_white_text_zgdrwx.png' />
+						<img className='responsive-img' src='https://res.cloudinary.com/omash612/image/upload/c_scale,w_2131/v1483683226/artsyBasketball_ysrsox.jpg' />
 					</div>
 
 					<br />
