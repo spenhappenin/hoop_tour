@@ -15,16 +15,16 @@ class Home extends React.Component {
 				<div className='main-header center'>
 					<div className='overlay'>
 						<div className='flex-col v-center h-center'>
+
+							<div>
+								<h2 className='foo'>#UniteTheCity</h2>
+							</div>
 							<div className=''>
 								<br />
 								<img className='responsive-img' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492487790/hoop_tour_white_text_zgdrwx.png' />
 							</div>
 
 							<br />
-
-							<div>
-								<h2 className='foo'>#UniteTheCity</h2>
-							</div>
 
 							<br />
 
