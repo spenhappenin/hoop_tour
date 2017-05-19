@@ -149,19 +149,4 @@ class Home extends React.Component {
 	}
 }
 
-export default Home;div>
-
-					<br />
-					<br />
-					<br />
-
-				</div>*/ }
-
-				<PresentedBy />
-
-			</div>
-		)
-	}
-}
-
-export default Home;
+export default Home
