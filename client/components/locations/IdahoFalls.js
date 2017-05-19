@@ -28,8 +28,8 @@ class IdahoFalls extends React.Component {
 
 				<div className='row center'>
 					<h2>IDAHO FALLS, ID</h2>
-					<h2>JULY 8 | SNAKE RIVER LANDING <a href='https://www.google.com/maps/place/Snake+River+Landing/@43.4837707,-112.0535597,17z/data=!3m1!4b1!4m5!3m4!1s0x5354596af2082d67:0xe792e3eff4e1cd74!8m2!3d43.4837707!4d-112.0513657' target='_blank'><i className="medium material-icons red-text">room</i></a></h2>
-					<a href='https://hooptourusa.sportngin.com/register/form/657804307' target='_blank' className='btn color-blue'>REGISTER NOW!</a>
+					<h2>JULY 8 | SNAKE RIVER LANDING</h2>
+					<a href='https://hooptourusa.sportngin.com/register/form/657804307' target='_blank' className='btn color-red'>REGISTER NOW!</a>
 				</div>
 
 				<br />
@@ -37,26 +37,26 @@ class IdahoFalls extends React.Component {
 
 			  <div className="">
 		      <ul className="tabs">
-		        <li className="tab"><a className='red-text' href="#info"><h4>EVENT INFO</h4></a></li>
-		        <li className="tab"><a className='red-text' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
+		        <li className="tab"><a className='color-red-txt' href="#info"><h4>EVENT INFO</h4></a></li>
+		        <li className="tab"><a className='color-red-txt' href="#photos"><h4>EVENT PHOTOS</h4></a></li>
 		      </ul>
 			  </div>
 
 				<br />
 
-					<div id='info' className=''>
+					<div id='info' className='flex-col v-center'>
 
 						<div>
 							<h2>EVENT INFO</h2>
 						</div>
 
-						<div>
-							<div className='flex-row'>
+						<div className=''>
+							<div className='flex-row event-item'>
 								<div>
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1493407164/credit_hshol3.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>Pricing</h2>
+									<h2 className='color-red-txt'>Pricing</h2>
 									<h2>$120/per team</h2>
 									<h4>YOUR TICKET INCLUDES:</h4>
 									<ul>
@@ -74,7 +74,7 @@ class IdahoFalls extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454198/man_cij9eu.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>TEAMS</h2>
+									<h2 className='color-red-txt'>TEAMS</h2>
 									<span>Min 3 players/team, Max 4 players/team</span>
 								</div>
 							</div>
@@ -87,8 +87,15 @@ class IdahoFalls extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454286/list_itdypq.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>DIVISIONS</h2>
-									<span>(Boys/Girls): Elementary, Junior High, H.S. JV, H.S. Varsity, Competitive Adult 18+</span>
+									<h2 className='color-red-txt'>DIVISIONS</h2>
+									<span>Boys/Girls:</span>
+									<ul>
+										<li>- Elementary</li>
+										<li>- Junior High</li>
+										<li>- H.S. JV</li>
+										<li>- H.S. Varsity</li>
+										<li>- Adult 18+</li>
+									</ul>
 								</div>
 							</div>
 
@@ -100,12 +107,13 @@ class IdahoFalls extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454023/location-pin_q1eye1.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>EVENT ADDRESS</h2>
+									<h2 className='color-red-txt'>EVENT ADDRESS</h2>
 									<ul>
 										<li>Snake River Landing</li>
 										<li>901 Pier View Dr #104</li>
 										<li>Idaho Falls, ID 83402</li>
 									</ul>
+									<a href='https://www.google.com/maps/place/Snake+River+Landing/@43.4837707,-112.0535597,17z/data=!3m1!4b1!4m5!3m4!1s0x5354596af2082d67:0xe792e3eff4e1cd74!8m2!3d43.4837707!4d-112.0513657' target='_blank'><img className='gmap-icon' src='http://www.iconarchive.com/download/i99368/dtafalonso/android-lollipop/Maps.ico' /></a>
 								</div>
 							</div>
 
@@ -117,7 +125,7 @@ class IdahoFalls extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454109/check_tuxiar.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>CHECK-IN</h2>
+									<h2 className='color-red-txt'>CHECK-IN</h2>
 									<span>7:00 a.m. - 7:30 a.m.</span>
 								</div>
 							</div>
@@ -130,7 +138,7 @@ class IdahoFalls extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492454131/clock_rhfpbw.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>STARTING TIME</h2>
+									<h2 className='color-red-txt'>STARTING TIME</h2>
 									<span>8:00 a.m.</span>
 								</div>
 							</div>
@@ -143,7 +151,7 @@ class IdahoFalls extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492453106/heart_bumgny.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>CHARITY HIGHLIGHT</h2>
+									<h2 className='color-red-txt'>CHARITY HIGHLIGHT</h2>
 									<span>Coming Soon</span>
 								</div>
 							</div>
@@ -156,7 +164,7 @@ class IdahoFalls extends React.Component {
 									<img className='event-item-icon' src='http://res.cloudinary.com/dtb6lx1s4/image/upload/v1492453101/bowl_gd2r9r.svg' />
 								</div>
 								<div className='flex-col event-item-name'>
-									<h2 className='color-blue-txt'>GRUB</h2>
+									<h2 className='color-red-txt'>GRUB</h2>
 									<span>Coming Soon</span>
 								</div>
 							</div>
@@ -174,7 +182,7 @@ class IdahoFalls extends React.Component {
 					</div>
 
 					<div className='row'>
-						<div className='register-now col s12 m12 l12 center color-blue'>
+						<div className='register-now col s12 m12 l12 center color-red'>
 							<a href='https://hooptourusa.sportngin.com/register/form/657804307' target='_blank'><h2>REGISTER NOW!</h2></a>
 						</div>
 					</div>

@@ -1,3 +1,7 @@
+.event-item {
+	// width: 230px;
+}
+
 .event-item-title {
 	
 }
@@ -28,6 +32,11 @@
 .register-now:hover {
 	background-color: #e3493b !important;
 	transition: 0.5s;
+}
+
+.gmap-icon {
+	height: 100px;
+	width: 100px;
 }
 
 @media (min-width: 993px) {

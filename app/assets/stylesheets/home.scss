@@ -64,7 +64,7 @@
 }
 
 .locations-body a:hover {
-	color: #304ffe !important;
+	color: #bf0000 !important;
 }
 
 .locations-row {
@@ -72,7 +72,7 @@
 }
 
 .locations-row:hover {
-	color: #ff4081;
+	// color: #bf0000;
 }
 
 .locations-item {
@@ -98,12 +98,12 @@
 	background-repeat: no-repeat;
 }
 
-.foo {
+.hash-tag {
 	font-size: 40px;
 }
 
 .row-color {
-	background-color: #bbdefb;
+	background-color: rgba(205, 0, 0, 0.34);
 }
 
 .image-content {
@@ -136,7 +136,13 @@
 
 }
 
+@media ( max-width: 500px ) {
 
+	.hash-tag {
+		font-size: 22px;
+	}
+
+}
 
 
 

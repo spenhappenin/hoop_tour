@@ -22,7 +22,7 @@ class Locations extends React.Component {
 
 				<div className='row'>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header color-blue-txt'>
+						<div className='month-header color-red-txt'>
 							<h2>JULY</h2>
 						</div>
 						<div className='month-body'>
@@ -41,7 +41,7 @@ class Locations extends React.Component {
 						</div>
 					</div>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header color-blue-txt'>
+						<div className='month-header color-red-txt'>
 							<h2>AUGUST</h2>
 						</div>
 						<div className='month-body'>
@@ -52,7 +52,7 @@ class Locations extends React.Component {
 						</div>
 					</div>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header color-blue-txt'>
+						<div className='month-header color-red-txt'>
 							<h2>SEPTEMBER</h2>
 						</div>
 						<div className='month-body'>
@@ -73,7 +73,7 @@ class Locations extends React.Component {
 				</div>
 				<div className='row'>
 					<div className='col s12 m4 l4 flex-col location-month'>
-						<div className='month-header color-blue-txt'>
+						<div className='month-header color-red-txt'>
 							<h2>OCTOBER</h2>
 						</div>
 						<div className='month-body'>

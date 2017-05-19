@@ -21,7 +21,7 @@ class Home extends React.Component {
 							</div>
 
 							<div>
-								<h2 className='foo'>#UniteTheCity</h2>
+								<h2 className='hash-tag'>#UniteTheCity</h2>
 							</div>
 
 							<br />
@@ -29,7 +29,7 @@ class Home extends React.Component {
 							<br />
 
 							<div className=''>
-								<Link to={'/locations'} className='btn color-blue'>Register!</Link>
+								<Link to={'/locations'} className='btn color-red'>Register!</Link>
 							</div>
 
 							<br />
@@ -57,7 +57,7 @@ class Home extends React.Component {
 
 					<div className=''>
 						<div className='locations-box flex-col'>
-							<div className='locations-header flex-col v-center color-blue white-text'>
+							<div className='locations-header flex-col v-center color-red white-text'>
 								<h2>Upcoming Locations</h2>
 								<Link to={ '/locations' } className='white-text'>View All Cities</Link>
 							</div>

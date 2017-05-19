@@ -12,48 +12,12 @@
 $primary-color: color("cyan", "base") !default;
 $secondary-color: color("cyan", "base") !default;
 
+* {
+	// border: 1px solid red;
+}
+
 .indicator {
 	background-color: #e3493b !important;
-}
-
-.color-blue-txt {
-	color: #304ffe !important;
-}
-
-.color-blue {
-	background-color: #171616 !important;
-}
-
-.color-yellow-txt {
-	color: #eeba4c !important;
-}
-
-.color-yellow {
-	background-color: #eeba4c !important;
-}
-
-.color-light-cyan-txt {
-	color: #a9ddd9 !important;
-}
-
-.color-light-cyan {
-	background-color: #a9ddd9 !important;
-}
-
-.color-cyan-txt {
-	color: #23b5af !important;
-}
-
-.color-cyan {
-	background-color: #23b5af !important;
-}
-
-.color-white-txt {
-	color: #ecf0f1 !important;
-}
-
-.color-white {
-	background-color: #ecf0f1 !important;
 }
 
 .color-red-txt {
