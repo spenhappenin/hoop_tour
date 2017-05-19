@@ -12,7 +12,7 @@ class Home extends React.Component {
 	render() {
 		return(
 			<div>
-				<div className='color-red main-header center'>
+				<div className='main-header center'>
 					<div className='overlay'>
 						<div className='flex-col v-center h-center'>
 							<div className=''>
