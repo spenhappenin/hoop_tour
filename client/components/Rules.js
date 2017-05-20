@@ -26,7 +26,7 @@ class Rules extends React.Component {
 								<li>a. 1 point is awarded if a basket is made within the 3 point line</li>
 								<li>b. 2 points are awarded if a basket is made behind the 3 point line</li>
 							</ul>
-						<li>Each team will be guaranteed 4 games.</li>
+						<li>Each team will be guaranteed 3 games.</li>
 							<ul>
 								<li>a. Every team will get round robin games, and then move on to tournament play. Round robin games are used to seed tournament games</li>
 							</ul>

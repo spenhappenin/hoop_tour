@@ -56,7 +56,7 @@ class FAQ extends React.Component {
 			    <li>
 			      <div className="collapsible-header grey lighten-4">What is included in my registration?</div>
 			      <div className="collapsible-body">
-			      	<span>Everyone receives an exclusive Hoop Tour USA T-Shirt and a Hoop Tour USA drawstring backpack.  Each team is guaranteed 4 games! Most importantly, you get to play the game you love while enjoying awesome music, delicious food, and soaking in a fun community event!  There are also awesome prizes for our winners!</span>
+			      	<span>Each team is guaranteed 3 games! Most importantly, you get to play the game you love while enjoying awesome music, delicious food, and soaking in a fun community event!  There will be awesome prizes as well!</span>
 			      </div>
 			    </li>
 			  </ul>
