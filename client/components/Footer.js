@@ -14,7 +14,7 @@ class Footer extends React.Component {
               <Link to={ 'faq' }> FAQ</Link> |
               <Link to={ 'coming-soon' }> Charity</Link> |
               <Link to={ 'contact' }> Contact</Link> |
-              <Link to={ 'coming-soon' }> Press</Link> |
+              <Link to={ 'press' }> Press</Link> |
               <Link to={ 'privacy-policy' }> Privacy Policy</Link> |
               <Link to={ 'coming-soon' }> Terms & Conditions</Link>
             </span>
