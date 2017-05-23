@@ -57,7 +57,7 @@ class Home extends React.Component {
 
 					<div className=''>
 						<div className='locations-box flex-col'>
-							<div className='locations-header flex-col v-center color-red white-text'>
+							<div className='locations-header flex-col v-center color-black white-text'>
 								<h2>Upcoming Locations</h2>
 								<Link to={ '/locations' } className='white-text'>View All Cities</Link>
 							</div>
@@ -69,26 +69,21 @@ class Home extends React.Component {
 								</Link>
 
 								<Link to={ '/utah-county' } className='locations-row flex-row h-center h-around row-color'>
-									<span className='locations-item'>July 29</span>
+									<span className='locations-item'>Aug 26</span>
 									<span className='locations-item'>Orem, UT</span>
 								</Link>
 
-								<Link to={ '/salt-lake' } className='locations-row flex-row h-center h-around'>
-									<span className='locations-item'>Aug 26</span>
-									<span className='locations-item'>Salt Lake, UT</span>
-								</Link>
-
-								<Link to={ '/st-george' } className='locations-row flex-row h-center h-around row-color'>
+								<Link to={ '/st-george' } className='locations-row flex-row h-center h-around'>
 									<span className='locations-item'>Sep 16</span>
 									<span className='locations-item'>St. George, UT</span>
 								</Link>
 
-								<Link to={ '/logan' } className='locations-row flex-row h-center h-around'>
+								<Link to={ '/logan' } className='locations-row flex-row h-center h-around row-color'>
 									<span className='locations-item'>Sep 30</span>
 									<span className='locations-item'>Logan, UT</span>
 								</Link>
 
-								<Link to={ '/las-vegas' } className='locations-row flex-row h-center h-around row-color'>
+								<Link to={ '/las-vegas' } className='locations-row flex-row h-center h-around'>
 									<span className='locations-item'>Oct 14</span>
 									<span className='locations-item'>Las Vegas, NV</span>
 								</Link>

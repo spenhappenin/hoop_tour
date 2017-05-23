@@ -28,7 +28,7 @@ class UtahCounty extends React.Component {
 
 				<div className='row center'>
 					<h2>OREM, UT</h2>
-					<h2>JULY 29 | COMMING SOON! <a target='_blank'><i className="medium material-icons black-text">room</i></a></h2>
+					<h2>AUGUST 26 | COMMING SOON! <a target='_blank'><i className="medium material-icons black-text">room</i></a></h2>
 					{ /* <h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4> */ }
 					<h4 className='color-blue-txt'>REGISTRATION COMING SOON!</h4>
 					{ /*<Link to={ '/home' } className='btn color-blue'>REGISTER NOW!</Link>*/ }
@@ -63,7 +63,6 @@ class UtahCounty extends React.Component {
 									<h4>YOUR TICKET INCLUDES:</h4>
 									<ul>
 										<li>- 3 games guaranteed/team</li>
-										<li>- Includes free drawstring backpack!</li>
 									</ul>
 								</div>
 							</div>

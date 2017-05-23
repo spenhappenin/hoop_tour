@@ -33,10 +33,6 @@ class Locations extends React.Component {
 								</Link>
 							</div>
 							<div>
-								<Link to={ '/utah-county' }>
-									<span className='locations-item month-spacing'>JUL 29</span>
-									<span className='locations-item'>OREM, UT</span>
-								</Link>
 							</div>
 						</div>
 					</div>
@@ -45,10 +41,10 @@ class Locations extends React.Component {
 							<h2>AUGUST</h2>
 						</div>
 						<div className='month-body'>
-							<Link to={ '/salt-lake' }>
-								<span className='locations-item month-spacing'>AUG 26</span>
-								<span className='locations-item'>SALT LAKE, UT</span>
-							</Link>
+								<Link to={ '/utah-county' }>
+									<span className='locations-item month-spacing'>AUG 26</span>
+									<span className='locations-item'>OREM, UT</span>
+								</Link>
 						</div>
 					</div>
 					<div className='col s12 m4 l4 flex-col location-month'>

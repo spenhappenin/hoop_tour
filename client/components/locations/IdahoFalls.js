@@ -61,7 +61,6 @@ class IdahoFalls extends React.Component {
 									<h4>YOUR TICKET INCLUDES:</h4>
 									<ul>
 										<li>- 3 games guaranteed/team</li>
-										<li>- Includes free drawstring backpack!</li>
 									</ul>
 								</div>
 							</div>
