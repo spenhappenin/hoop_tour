@@ -183,7 +183,7 @@ class StGeorge extends React.Component {
 					</div>
 
 					<div className='row'>
-						<div className='register-now col s12 m12 l12 center color-blue'>
+						<div className='register-now col s12 m12 l12 center color-red'>
 							<Link><h2>REGISTER NOW!</h2></Link>
 						</div>
 					</div>
