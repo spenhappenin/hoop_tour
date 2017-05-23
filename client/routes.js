@@ -16,6 +16,7 @@ import Contact from './components/Contact';
 import Rules from './components/Rules';
 import NoMatch from './components/NoMatch';
 import ComingSoon from './components/ComingSoon';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 export default (
   <Route>
@@ -35,6 +36,7 @@ export default (
 	    <Route path="/contact" component={ Contact } />
 	    <Route path="/rules" component={ Rules } />
 	    <Route path='/coming-soon' component={ ComingSoon } />
+	    <Route path='/privacy-policy' component={ PrivacyPolicy } />
 	    <Route path="*" status={ 404 } component={ NoMatch }/>
     </Route>
   </Route>

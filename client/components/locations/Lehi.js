@@ -28,7 +28,7 @@ class Lehi extends React.Component {
 
 				<div className='row center'>
 					<h2>LEHI, UT</h2>
-					<h2>AUGUST 26 | COMMING SOON! <a target='_blank'><i className="medium material-icons black-text">room</i></a></h2>
+					<h2>AUGUST 12 | COMMING SOON! <a target='_blank'><i className="medium material-icons black-text">room</i></a></h2>
 					{ /* <h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4> */ }
 					<h4 className='color-blue-txt'>REGISTRATION COMING SOON!</h4>
 					{ /*<Link to={ '/home' } className='btn color-blue'>REGISTER NOW!</Link>*/ }

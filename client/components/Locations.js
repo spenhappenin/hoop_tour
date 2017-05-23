@@ -42,7 +42,7 @@ class Locations extends React.Component {
 						</div>
 						<div className='month-body'>
 								<Link to={ '/lehi' }>
-									<span className='locations-item month-spacing'>AUG 26</span>
+									<span className='locations-item month-spacing'>AUG 12</span>
 									<span className='locations-item'>LEHI, UT</span>
 								</Link>
 						</div>

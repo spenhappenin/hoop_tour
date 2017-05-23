@@ -69,7 +69,7 @@ class Home extends React.Component {
 								</Link>
 
 								<Link to={ '/lehi' } className='locations-row flex-row h-center h-around row-color'>
-									<span className='locations-item'>Aug 26</span>
+									<span className='locations-item'>Aug 12</span>
 									<span className='locations-item'>Lehi, UT</span>
 								</Link>
 

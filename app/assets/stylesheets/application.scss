@@ -8,6 +8,7 @@
 @import 'nav';
 @import 'rules';
 @import 'footer';
+@import 'privacy';
 @import '404';
 $primary-color: color("cyan", "base") !default;
 $secondary-color: color("cyan", "base") !default;
@@ -91,6 +92,10 @@ h6 {
 // font-family: 'Hammersmith One', sans-serif;
 // font-family: 'Audiowide', cursive;
 	// font-family: 'Raleway', sans-serif;
+}
+
+.bullets {
+	list-style: circle !important;
 }
 
 .contain {
