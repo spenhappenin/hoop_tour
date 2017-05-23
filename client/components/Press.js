@@ -14,7 +14,7 @@ class Press extends React.Component {
 
 				<div>
 					<h4>Hoop Tour USA Style Guide</h4>
-					<p>In all references, the full name of the company should be used: “Hoop Tour USA.” Avoid using “Hoop Tour” or “Hoops Tour.”</p>
+					<p>In all references, the full name of the company should be used: “Hoop Tour USA.” Avoid using “Hoop Tour”.</p>
 				</div>
 
 				<br />
