@@ -2,11 +2,20 @@
 
 }
 
-.rules ol li {
+.sub-rules li {
+	list-style: none !important;
 	font-weight: bold;
+	padding-left: 20px !important;	
+}
+
+.sub-letter {
+	padding-right: 10px;
 }
 
 .rules ul li {
+	list-style: circle;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 16px;
+	padding: 5px;
+	margin-left: 25px;
 }
