@@ -44,7 +44,7 @@ class IdahoFalls extends React.Component {
 
 				<br />
 
-					<div id='info' className='flex-col v-center'>
+					<div id='info' className=''>
 
 						<div>
 							<h2>EVENT INFO</h2>

@@ -9,7 +9,7 @@ import IdahoFalls from './components/locations/IdahoFalls';
 import LasVegas from './components/locations/LasVegas';
 import Logan from './components/locations/Logan';
 import StGeorge from './components/locations/StGeorge';
-import UtahCounty from './components/locations/UtahCounty';
+import Lehi from './components/locations/Lehi';
 import Sponsorship from './components/Sponsorship';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
@@ -29,7 +29,7 @@ export default (
 	    <Route path='/las-vegas' component={ LasVegas } />
 	    <Route path='/logan' component={ Logan } />
 	    <Route path='/st-george' component={ StGeorge } />
-	    <Route path='/utah-county' component={ UtahCounty } />
+	    <Route path='/lehi' component={ Lehi } />
 	    <Route path="/sponsorship" component={ Sponsorship } />
 	    <Route path="/FAQ" component={ FAQ } />
 	    <Route path="/contact" component={ Contact } />

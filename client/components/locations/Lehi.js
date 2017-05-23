@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import PresentedBy from '../PresentedBy';
 
-class UtahCounty extends React.Component {
+class Lehi extends React.Component {
 
 	componentDidMount() {
 	  $(document).ready(function(){
@@ -27,7 +27,7 @@ class UtahCounty extends React.Component {
 				<br />
 
 				<div className='row center'>
-					<h2>OREM, UT</h2>
+					<h2>LEHI, UT</h2>
 					<h2>AUGUST 26 | COMMING SOON! <a target='_blank'><i className="medium material-icons black-text">room</i></a></h2>
 					{ /* <h4 className='color-blue-txt'>TICKETS NOW AVAILABLE</h4> */ }
 					<h4 className='color-blue-txt'>REGISTRATION COMING SOON!</h4>
@@ -184,4 +184,4 @@ class UtahCounty extends React.Component {
 	}
 }
 
-export default UtahCounty;
+export default Lehi;

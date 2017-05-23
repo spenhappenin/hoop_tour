@@ -41,9 +41,9 @@ class Locations extends React.Component {
 							<h2>AUGUST</h2>
 						</div>
 						<div className='month-body'>
-								<Link to={ '/utah-county' }>
+								<Link to={ '/lehi' }>
 									<span className='locations-item month-spacing'>AUG 26</span>
-									<span className='locations-item'>OREM, UT</span>
+									<span className='locations-item'>LEHI, UT</span>
 								</Link>
 						</div>
 					</div>
