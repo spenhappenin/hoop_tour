@@ -158,7 +158,8 @@ class IdahoFalls extends React.Component {
 										<div className='s12'>
 											<span>United Way is a nonprofit organization devoted to strengthening Bonneville, Clark, Fremont, Jefferson, Lemhi, Madison and TetonCounties. With over 60 years of service history, our specialties are understanding the myriad of struggles facing the community and improving the lives of individuals and families. </span>
 											<br />
-											<span>We are excited to partner with them...</span>
+											<br />
+											<span>We are excited to partner with United Way and give back to those in need in the community. Sign up now and a portion of your entrance cost will be donated directly, or visit (united way website) to make a separate donation.</span>
 										</div>
 									</div>
 								</div>
